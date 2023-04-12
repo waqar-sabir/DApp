@@ -18,7 +18,6 @@ abstract contract BaseERC20 is
     ) public initializer {
         __ERC20_init_unchained(name, symbol);
         __AccessControl_init();
-
         _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
         _grantRole(MINTER_ROLE, msg.sender);
     }

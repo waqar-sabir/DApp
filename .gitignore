@@ -110,5 +110,7 @@ dist
 # artifacts
 artifacts/
 
+.openzeppelin
+
 # cache
 cache/
